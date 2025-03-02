@@ -11,4 +11,38 @@
     color: hsl(228, 45%, 44%);
   }
 
-  
+  .main{
+    max-width: 1140;
+    padding: 20px;
+    margin: 100px , auto;
+  }
+
+
+  .card{
+    background:white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+
+  .card-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .card-header h3{
+    font-size: 15px;
+  }
+  .card-header p{
+    font-size: 14px;
+    opacity: 50%;
+  }
+
+  .card-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border:#996ed9;
+    margin-right: 10px;
+  }
